@@ -3,8 +3,8 @@ redo-always
 redo-ifchange config.rc
 . ./config.rc
 
-printf "st build options:"         >&2
-printf "CFLAGS  = %s"  "$STCFLAGS" >&2
-printf "LDFLAGS = %s" "$STLDFLAGS" >&2
-printf "CC      = %s"        "$CC" >&2
+printf "st build options:\n"         >&2
+printf "CFLAGS  = %s\n"  "$STCFLAGS" >&2
+printf "LDFLAGS = %s\n" "$STLDFLAGS" >&2
+printf "CC      = %s\n"        "$CC" >&2
 
