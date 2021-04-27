@@ -5,18 +5,18 @@ st is a simple terminal emulator for X which sucks less.
 
 Requirements
 ------------
-In order to build st you need the Xlib header files.
+In order to build st you need the Xlib header files and redo.
 
 
 Installation
 ------------
-Edit config.mk to match your local setup (st is installed into
+Edit config.rc to match your local setup (st is installed into
 the /usr/local namespace by default).
 
 Afterwards enter the following command to build and install st (if
 necessary as root):
 
-    make clean install
+    redo clean install
 
 
 Running st
