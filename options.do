@@ -1,5 +1,4 @@
 
-redo-always
 redo-ifchange config.rc
 . ./config.rc
 

@@ -1,6 +1,8 @@
 
-redo-ifchange clean config.rc
+redo-ifchange config.rc
 . ./config.rc
+
+redo clean
 
 mkdir -p st-$VERSION
 cp -R FAQ LEGACY TODO LICENSE README *.do config.rc \

@@ -1,6 +1,8 @@
 
-redo-ifchange st config.rc
+redo-ifchange config.rc
 . ./config.rc
+
+redo all
 
 mkdir -p ${DESTDIR}${PREFIX}/bin
 cp -f st ${DESTDIR}${PREFIX}/bin

@@ -1,3 +1,6 @@
 
-redo-ifchange options st
+# Always redo
+redo options
+
+redo-ifchange st
 

@@ -2,6 +2,7 @@
 redo-ifchange config.rc
 . ./config.rc
 
+redo config.h-copy
 redo-ifchange $2.c config.h
 
 [ "$1" = "st.o" ] && \
